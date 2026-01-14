@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<configSections>
+		<section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+	</configSections>
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8.1" />
+	</startup>
+	<connectionStrings>
+		<add name="ConnectDB" connectionString="Data Source=YOUR_SERVER;Initial Catalog=HiTechBooksDB;User=YOUR_USER;Password=YOUR_PASSWORD" />
+
+		<add name="HiTechBooksDBEntities" connectionString="metadata=res://*/Data.HiTechDBModel.csdl|res://*/Data.HiTechDBModel.ssdl|res://*/Data.HiTechDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=YOUR_SERVER;initial catalog=HiTechBooksDB;user id=YOUR_USER;password=YOUR_PASSWORD;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+
+		<add name="HiTechBooksDBModel" connectionString="metadata=res://*/Data.HiTechBooksManagementModel.csdl|res://*/Data.HiTechBooksManagementModel.ssdl|res://*/Data.HiTechBooksManagementModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=YOUR_SERVER;initial catalog=HiTechBooksDB;user id=YOUR_USER;password=YOUR_PASSWORD;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+	</connectionStrings>
+	<entityFramework>
+		<providers>
+			<provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+		</providers>
+	</entityFramework>
+</configuration>

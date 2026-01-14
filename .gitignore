@@ -1,0 +1,17 @@
+# --- Secrets ---
+App.config
+
+packages/
+
+# --- Build Output ---
+[Bb]in/
+[Oo]bj/
+
+# --- Visual Studio Files ---
+.vs/
+*.user
+*.suo
+
+# --- Database Files ---
+*.mdf
+*.ldf

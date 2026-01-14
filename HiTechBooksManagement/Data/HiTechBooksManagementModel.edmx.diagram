@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6afe22dab06744679e444d3009b8b275" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Author" Width="1.5" PointX="3" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.BookAuthor" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Book" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Category" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Customer" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Employee" Width="1.5" PointX="1.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.OrderDetail" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Order" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Publisher" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.Role" Width="1.5" PointX="1.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HiTechBooksDBEntities.User" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_BookAuthors_Authors" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_BookAuthors_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_Books_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_Books_Publishers" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_OrderDetails_BookID" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_Orders_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_RoleID" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_OrderDetails_OrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_Orders_UserID" ManuallyRouted="false" />
+        <AssociationConnector Association="HiTechBooksDBEntities.FK_RoleID_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

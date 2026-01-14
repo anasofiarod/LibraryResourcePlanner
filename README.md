@@ -80,7 +80,4 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
     * Build the solution to restore NuGet packages.
     * Run the application.
 
-## License
-This project was developed for the Multi-tier Applications Development course (420-DA3-AS) at LaSalle College.
-
 

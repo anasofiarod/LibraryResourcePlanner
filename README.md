@@ -1,8 +1,8 @@
-\# Hi-Tech Order Management System
+# Hi-Tech Order Management System
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -14,7 +14,7 @@ This project demonstrates the implementation of enterprise-level software archit
 
 
 
-\## Technical Architecture
+## Technical Architecture
 
 
 
@@ -28,7 +28,7 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\### Key Technical Features
+### Key Technical Features
 
 
 
@@ -62,11 +62,11 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\## System Modules
+## System Modules
 
 
 
-\### Human Resources \& Administration
+### Human Resources \& Administration
 
 \* \*\*User:\*\* MIS Manager
 
@@ -76,7 +76,7 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\### Sales \& Customer Management
+### Sales \& Customer Management
 
 \* \*\*User:\*\* Sales Manager
 
@@ -86,7 +86,7 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\### Inventory Control
+### Inventory Control
 
 \* \*\*User:\*\* Inventory Controller
 
@@ -96,7 +96,7 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\### Order Processing
+### Order Processing
 
 \* \*\*User:\*\* Order Clerks
 
@@ -106,11 +106,10 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\## Setup and Configuration
+## Setup and Configuration
 
 
-
-\### Prerequisites
+### Prerequisites
 
 \* Visual Studio 2022
 
@@ -118,7 +117,7 @@ The application is built upon a multi-tier architecture, dividing responsibiliti
 
 
 
-\### Installation Steps
+### Installation Steps
 
 
 
